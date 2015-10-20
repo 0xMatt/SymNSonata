@@ -10,21 +10,21 @@
     },
     "require": {
         "php": ">=5.3.9",
-        "symfony/symfony": "2.7.*",
-        "doctrine/orm": "~2.2,>=2.2.3,<2.5",
-        "doctrine/dbal": "<2.5",
-        "doctrine/doctrine-bundle": "~1.4",
+        "symfony/symfony": "2.8.x-dev",
+        "doctrine/orm": "~2.4,<2.5",
+        "doctrine/dbal": "~2.4",
+        "doctrine/doctrine-bundle": "1.3.*@dev",
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sonata-project/admin-bundle": "^2.3",
-        "sonata-project/doctrine-orm-admin-bundle": "^2.3",
-        "sonata-project/easy-extends-bundle": "^2.1",
-        "sonata-project/user-bundle": "^2.2",
-        "knplabs/knp-menu-bundle": "~1.1",
+        "sonata-project/admin-bundle": "~2.4@dev",
+        "sonata-project/doctrine-orm-admin-bundle": "~2.4@dev",
+        "sonata-project/easy-extends-bundle": "~2.1@dev",
+        "sonata-project/user-bundle": "~2.2@dev",
+        "knplabs/knp-menu-bundle": "~2.0",
         "sylius/cart-bundle": "^0.15.0"
     },
     "require-dev": {
@@ -58,7 +58,7 @@
     },
     "extra": {
         "symfony-app-dir": "app",
-        "symfony-web-dir": "html",
+        "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
